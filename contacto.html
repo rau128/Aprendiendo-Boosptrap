@@ -44,33 +44,39 @@
 
  </div>
  <main class="container py-5">
-    <h2 class="text-center pb-5">Blog</h2>
+    <h2 class="text-center">Contacto</h2>
 
-    <section class="row">
-        <section class="col-md-8">
-        <h2>Guia De Colores</h2>
-        <img src="./img/producto3.jpg" alt="blog" class="img-fluid">
+    <form class="row">
+      <fieldset class="bg-primary  mx-auto col-md-8">
+          <legend class="text-center p-1 text-white ">Tus Datos</legend>
 
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem culpa consequuntur earum beatae inventore, molestias sapiente cupiditate recusandae? Libero ducimus, nesciunt placeat repellendus laborum labore porro quia? Autem, odit?</p>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Tu Nombre" id="nombre">
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" placeholder="Tu Apellido" id="apellido">
+          </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste dolor iure exercitationem deserunt? Perspiciatis, distinctio nostrum reprehenderit deserunt sed culpa, harum minima dolores, ullam enim repudiandae molestias omnis eum?</p>
-        </div>
-        </section>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Tu Email" id="email">
+          </div>
 
-        <aside class="col-md-4">
-            <h3>Otras Entrandas De Blog</h3>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="tel" class="form-control" placeholder="Tu Telefono" id="telefono">
+          </div>
 
-            <nav class="navbar">
-                <ul class="navbar-nav">
-                    <li class="navbar-item"><a href="#" class="navbar-link">Guia De Colores</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Nuevos Modelos</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Guia Para Diseños Exteriores</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Guia Para Diseños Interiores</a></li>
-                </ul>
-            </nav>
-        </aside>
-    </section>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+           <textarea class="form-control" id="mensaje"  rows="10"></textarea>
+          </div>
+
+          <input type="submit" value="Enviar Datos" class="form-control mb-3 bg-white text-uppercase fw-bold">
+      </fieldset>
+    </form>
 
    
  </main>
